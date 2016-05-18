@@ -1,0 +1,25 @@
+{
+  "name": "ajant/prophecy-demonstration",
+  "authors": [
+    {
+      "name": "Jovanovic Aleksandar",
+      "email": "ajant.github@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "description": "Demonstration of prophecy library features",
+  "homepage": "https://github.com/ajant/TestingDemonstration",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TestingDemonstration\\": "src",
+      "TestingDemonstration\\Test\\": "test"
+    }
+  }
+}

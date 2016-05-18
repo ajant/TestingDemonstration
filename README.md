@@ -1,0 +1,1 @@
+Simple demonstration of features of PHPUnit framework and Prophecy library
